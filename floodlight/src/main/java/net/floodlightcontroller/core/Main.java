@@ -45,7 +45,8 @@ public class Main {
 			// Setup logger
 			System.setProperty("org.restlet.engine.loggerFacadeClass", 
 					"org.restlet.ext.slf4j.Slf4jLoggerFacade");
-
+			
+			//解析控制器的启动命令
 			CmdLineSettings settings = new CmdLineSettings();
 			CmdLineParser parser = new CmdLineParser(settings);
 			try {
